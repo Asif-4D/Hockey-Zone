@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Zone</title>
+
+    <!-- Tailwind Css and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <style>
+        .manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+
+</head>
+<body class="manrope">
+
+    <header class="sm: pl-3 pr-3 sm: mb-8 w-full lg:max-w-screen-xl m-auto lg:mb-24">
+
+        <!-- Navbar area -->
+        <div class="navbar py-10">
+
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="sm: pl-0 lg:hidden btn btn-ghost">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="hover:text-red-500">Home</a></li>
+                  <li><a class="hover:text-red-500">About</a></li>
+                  <li><a class="hover:text-red-500">Pages</a></li>
+                  <li><a class="hover:text-red-500">Blog</a></li>
+                  <li><a class="hover:text-red-500">Contact</a></li>
+                </ul>
+              </div>
+             
+              <a class="text-lg lg:text-4xl text-black font-extrabold  cursor-pointer ">Hockey <span class="text-lg lg:text-4xl text-red-500  font-extrabold">Zone</span></a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+              <ul tabindex="0" class="menu menu-horizontal px-1 font-bold text-base">
+                <li><a class="hover:text-red-500">Home</a></li>
+                <li><a class="hover:text-red-500">About</a></li>
+                <li><a class="hover:text-red-500">Pages</a></li>
+                <li><a class="hover:text-red-500">Blog</a></li>
+                <li><a class="hover:text-red-500">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-end">
+              <a class="sm:text-lg py-2 px-4 lg:text-xl lg:py-4 lg:px-6 rounded-lg cursor-pointer font-bold bg-red-500 text-white duration-300 hover:bg-red-600">Get Ticket</a>
+            </div>
+
+        </div>
+
+
+        <!-- Slider area (Carousel) -->
+        <div class="carousel w-full lg:relative">
+            <div id="slide1" class="carousel-item relative w-full ">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full lg:relative z-10 ">
+              <img src="Images/2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full ">
+              <img src="Images/3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full ">
+              <img src="Images/4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            
+        </div>
+        <div class="sm: mt-4 p-4 sm:block lg:w-4/12 rounded-2xl lg:absolute z-20 bottom-24 right-96 caro-Boxtext bg-[#131318] lg:p-8 ">
+            <h3 class="text-2xl font-extrabold text-white mb-4">Meet all the heroes from the field</h3>
+            <p class="text-base font-medium text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+
+       
+    </header>
+
+    <main>
+      <!-- Common screen size and margin -->
+        <section class="sm: pl-3 pr-3 w-full lg:max-w-screen-xl m-auto ">
+
+          <!-- Common title text style -->
+          <hr class="border-dashed border-slate-500 ">
+          <div class="text-center">
+            <h2 class="text-4xl font-extrabold mt-8 mb-6">Professional Hockeys Club</h2>
+            <p class="text-base font-medium mb-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <hr class="border-dashed border-slate-500 ">
+
+          <!-- Professional hockeys club -->
+          <section class="grid grid-cols-4 mt-12 mb-24">
+
+            <div class="text-center ">
+              <div class="radial-progress text-[#FF4240] text-xl font-extrabold" style="--value:87;" role="progressbar">87%</div>
+              <h3 class="text-xl font-semibold text-slate-950 mt-6 mb-4">Prayer Facility</h3>
+              <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center ">
+              <div class="radial-progress text-[#49D293] text-xl font-extrabold" style="--value:95;" role="progressbar">95%</div>
+              <h3 class="text-xl font-semibold text-slate-950 mt-6 mb-4">Prayer Facility</h3>
+              <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center ">
+              <div class="radial-progress text-[#FFB546] text-xl font-extrabold" style="--value:90;" role="progressbar">90%</div>
+              <h3 class="text-xl font-semibold text-slate-950 mt-6 mb-4">Prayer Facility</h3>
+              <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center ">
+              <div class="radial-progress text-[#4C8DF1] text-xl font-extrabold" style="--value:80;" role="progressbar">80%</div>
+              <h3 class="text-xl font-semibold text-slate-950 mt-6 mb-4">Prayer Facility</h3>
+              <p class="text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+
+          </section>
+
+
+          <section>
+
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+          
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
